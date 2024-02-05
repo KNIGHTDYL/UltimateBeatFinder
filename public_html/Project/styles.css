@@ -1,0 +1,264 @@
+/* Common Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #D8C3A5;
+    color: #3E3E3E;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Navigation Styles */
+nav {
+    background-color: #3E3E3E;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    background-color: #7CB48F;
+}
+
+/* Form Styles */
+form {
+    margin-bottom: 20px;
+}
+
+input {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+/* Alert Styles */
+.alert {
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.alert-success {
+    background-color: #7CB48F;
+}
+
+.alert-warning {
+    background-color: #E8C547;
+    color: #333;
+}
+
+.alert-danger {
+    background-color: #C06C84;
+}
+
+.alert-info {
+    background-color: #4F6457;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 2px solid #7CB48F; /* Thicker borders for better visibility */
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #7CB48F;
+    color: #fff;
+}
+
+tbody {
+    background-color: #fff; /* Light background color for better visibility */
+}
+
+/* Page-Specific Styles */
+h1, h2, h3, p {
+    margin-bottom: 15px;
+}
+
+h1 {
+    color: #4F6457;
+}
+
+h2 {
+    color: #7CB48F;
+}
+
+/* Add more specific styles as needed */
+
+/* Additional Styles for View Video Page */
+.full-details {
+    margin-top: 20px;
+}
+
+.full-details table {
+    max-width: 100%; /* Set a maximum width for the table */
+    width: auto;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.full-details th,
+.full-details td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    text-overflow: ellipsis; /* Display an ellipsis (...) to indicate overflow */
+}
+
+.full-details th {
+    background-color: #7CB48F;
+    color: #fff;
+}
+
+/* Additional Styles for Video */
+.video-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%; /* 16:9 Aspect Ratio (9 / 16 * 100) */
+}
+
+.video-item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Common Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #D8C3A5;
+    color: #3E3E3E;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Navigation Styles */
+nav {
+    background-color: #3E3E3E;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    background-color: #7CB48F;
+}
+
+/* Form Styles */
+form {
+    margin-bottom: 20px;
+    max-width: 600px; /* Adjust the max-width as needed */
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333; /* Adjust text color as needed */
+}
+
+input {
+    width: 100%;
+    padding: 10px; /* Increase padding for better readability */
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px; /* Adjust font size as needed */
+    margin-bottom: 10px;
+}
+
+input[type="number"] {
+    width: 50%;
+}
+
+input[type="submit"] {
+    background-color: #7CB48F;
+    color: #fff;
+    cursor: pointer;
+    padding: 12px 20px; /* Adjust padding for better button appearance */
+    border: none;
+    border-radius: 5px;
+    font-size: 18px; /* Adjust button font size as needed */
+}
+
+/* Alert Styles */
+.alert {
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+/* Button Styles */
+button {
+    background-color: #7CB48F;
+    color: #fff;
+    cursor: pointer;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Delete Button Styles */
+.delete-btn {
+    background-color: #C06C84;
+}
+
+.highlight {
+    background-color: rgb(255, 255, 151) /* or any other color you prefer */
+}
